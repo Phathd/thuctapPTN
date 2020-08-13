@@ -1,0 +1,270 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media(max-width:1024) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-left: auto;
+        padding-right: auto;
+        height: 100%;
+    }
+}
+
+@media(min-width:1024px) {
+    .container {
+        padding-left: 150px;
+        padding-right: 150px;
+        height: 100%;
+    }
+}
+
+@media(max-width: 940px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+#header {
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+div {
+    display: block;
+}
+
+.menu-header {
+    position: fixed;
+    height: 50px;
+    width: -webkit-fill-available;
+    background-color: #111028;
+    border-bottom: 1px solid #80808030;
+    padding: 15px;
+    z-index: 1000;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+a {
+    color: white;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.navbar-logo a {
+    text-decoration: none;
+}
+
+.navbar-logo img {
+    vertical-align: middle;
+}
+
+.login {
+    padding: 10px 20px 10px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.banner {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111028;
+    box-sizing: border-box;
+}
+
+.wrap-banner {
+    background-image: url(‪C:\Users\Admin\Desktop\project\templateLayout2-master\templateLayout2-master\images\bg-img\trans.png) no-repeat right top;
+    display: flex;
+    align-items: center;
+    height: 100%!important;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.banner-main {
+    align-items: center;
+    height: 100%!important;
+    display: flex;
+}
+
+.left {
+    display: inline-block;
+    max-width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title {
+    box-sizing: border-box;
+}
+
+.light {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+    animation: lighter ease 4s none infinite;
+}
+
+.light1 {
+    top: 20%;
+    left: 30%;
+}
+
+.light2 {
+    top: 50%;
+    left: 8%;
+}
+
+.light3 {
+    top: 60%;
+    left: 15%;
+}
+
+hr.line {
+    display: block;
+    width: 40px;
+    border-color: #3964f9;
+    margin-top: 28px;
+    margin-right: 10px;
+    float: left;
+}
+
+.left h4 {
+    color: blueviolet;
+    float: left;
+}
+
+.left h1 {
+    color: #ffffff;
+    float: left;
+    clear: both;
+}
+
+p {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 20px;
+    float: left;
+}
+
+.node {
+    float: left;
+}
+
+.node1 {
+    width: 150px !important;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 15px 25px 15px 25px;
+    margin-right: 20px;
+}
+
+.node a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+.right {
+    display: block;
+    max-width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.main {
+    display: block;
+}
+
+.main-top {
+    padding: 150px 0;
+    width: 100%;
+}
+
+p.text {
+    color: #888;
+}
+
+h5 {
+    font-size: 30px;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    background: #181734;
+    align-items: center;
+    width: 100%;
+}
+
+.box-img {
+    display: inline-block;
+    padding-right: 25px;
+    width: 33%;
+}
+
+.box-content {
+    float: right;
+    width: 67%;
+}
+
+.button-a {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 100;
+    background-color: blue;
+    padding: 15px;
+    border: 1px solid;
+    opacity: 0;
+    transition: .5s;
+}
+
+.button-a.active {
+    opacity: 1;
+}
+
+.button-a.click {
+    width: 300px;
+}
+
+.fa {
+    font-weight: 900;
+    color: white;
+}
